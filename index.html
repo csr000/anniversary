@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Seven Years</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <section id="intro" class="screen active">
+    <p class="eyebrow">Since 2019</p>
+    <h1>Seven years.</h1>
+    <p class="lede" id="greeting"></p>
+    <button id="begin" class="btn">Open</button>
+  </section>
+
+  <section id="moments" class="screen">
+    <h2>One for every year</h2>
+    <p class="hint">Tap each card · <span id="progress"></span></p>
+    <div id="grid" class="grid"></div>
+    <button id="next" class="btn">One more thing</button>
+  </section>
+
+  <section id="finale" class="screen">
+    <p class="eyebrow">Happy anniversary</p>
+    <div id="letter" class="letter"></div>
+    <p class="signature" id="signature"></p>
+  </section>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
